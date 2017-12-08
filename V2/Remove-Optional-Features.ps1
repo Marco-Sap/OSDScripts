@@ -95,23 +95,26 @@ $Text = "Number of Features being disabled: " + $Features.Count
 
 Write-Information $Text
 
-foreach ($Feature in $Features) {
 
-    Try
+If ($script:Offline)
     {
+        foreach ($Feature in $Features)
+            {
 
-    Disable-WindowsOptionalFeature -Path $script:OfflinePath -FeatureName $Feature -NoRestart | Out-Null
-    Write-Information "Disabled: $Feature"
-
-    }
-    Catch [System.Exception]
-    {
-
-    Write-Information -Message $_.Exception.Message 
+            Disable-WindowsOptionalFeature -Path $script:OfflinePath -FeatureName $Feature -NoRestart | Out-Null
+            Write-Information "Disabled: $Feature offline"
+            }
 
     }
 
-}
+Else{
+        foreach ($Feature in $Features)
+            {
+
+            Disable-WindowsOptionalFeature -Online -FeatureName $Feature -NoRestart | Out-Null
+            Write-Information "Disabled: $Feature online"
+            }
+    }
 
 }
 
