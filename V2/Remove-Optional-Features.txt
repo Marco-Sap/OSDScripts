@@ -1,0 +1,11 @@
+MicrosoftWindowsPowerShellV2Root
+MicrosoftWindowsPowerShellV2
+MediaPlayback
+WindowsMediaPlayer
+Xps-Foundation-Xps-Viewer
+WorkFolders-Client
+SMB1Protocol
+Printing-Foundation-Features
+Printing-Foundation-InternetPrinting-Client
+FaxServicesClientPackage
+Microsoft-Windows-Printing-XPSServices-Package
