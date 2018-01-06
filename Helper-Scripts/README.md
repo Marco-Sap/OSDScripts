@@ -1,7 +1,7 @@
-Create-AppxList.psq
+Create-AppxList.ps1
 
 
-Create-FeatureList.psq
+Create-FeatureList.ps1
 
 
 Invoke-ExtractCab.ps1
