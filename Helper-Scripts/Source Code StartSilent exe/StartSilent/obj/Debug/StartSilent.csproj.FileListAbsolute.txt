@@ -1,0 +1,10 @@
+C:\Users\Marco\source\repos\StartSilent\StartSilent\bin\Debug\StartSilent.exe.config
+C:\Users\Marco\source\repos\StartSilent\StartSilent\bin\Debug\StartSilent.exe
+C:\Users\Marco\source\repos\StartSilent\StartSilent\bin\Debug\StartSilent.pdb
+C:\Users\Marco\source\repos\StartSilent\StartSilent\bin\Debug\System.Management.Automation.dll
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.csprojResolveAssemblyReference.cache
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.Properties.Resources.resources
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.csproj.GenerateResource.Cache
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.csproj.CoreCompileInputs.cache
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.exe
+C:\Users\Marco\source\repos\StartSilent\StartSilent\obj\Debug\StartSilent.pdb

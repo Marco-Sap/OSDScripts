@@ -1,0 +1,1 @@
+﻿Unregister-ScheduledTask -TaskName UpgradeReminder -Confirm:$false
