@@ -77,6 +77,16 @@ reg unload "hku\Default"
 
 }
 
+# Remove OneDrive Shortcut on version 1803
+
+$OSBuildNumber = Get-WmiObject -Class "Win32_OperatingSystem" | Select-Object -ExpandProperty BuildNumber
+
+if ($OSBuildNumber -le "17134") {
+
+            Remove-Item -Path "C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Onedrive.lnk" -Force
+
+}
+
 # ---------------------------------------------------------------------------
 # Main Logic
 # ---------------------------------------------------------------------------
