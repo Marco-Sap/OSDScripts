@@ -7,4 +7,4 @@ If you find work from yourself please notify me so that i can credit your work o
 
 
 Link to AutoPilot Script:
-https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.3/DisplayScript
+https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.5
